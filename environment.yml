@@ -1,0 +1,61 @@
+name: fastai-cpu
+channels:
+- defaults
+dependencies:
+- scipy
+- numpy
+- pillow
+- seaborn
+- freetype
+- libtiff
+- bleach
+- certifi
+- cffi
+- entrypoints
+- expat
+- html5lib
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- conda-forge::jupyter_contrib_nbextensions  
+- matplotlib
+- notebook
+- numpy
+- pandas
+- pandocfilters
+- path.py
+- pickleshare
+- pip
+- prompt_toolkit
+- pycparser
+- pygments
+- pyparsing
+- pyqt
+- python>=3.6.0
+- python-dateutil
+- pytz
+- pyzmq
+- qt
+- scipy
+- seaborn
+- setuptools
+- simplegeneric
+- statsmodels
+- prompt_toolkit
+- pytest
+- pip:
+  - opencv-python
+  - isoweek
+  - pandas_summary
+  - graphviz
+  - sklearn_pandas
+  - feather-format
+  - plotnine
+  - kaggle-cli
+  - ipywidgets
